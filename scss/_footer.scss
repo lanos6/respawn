@@ -1,0 +1,27 @@
+.footer {
+        padding: 56px 0 24px;
+        background: $color-footer;
+        border-top: 1px solid $color-border;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        gap: 32px;
+        }
+    &__bottom {
+        margin-top: 40px;
+        padding-top: 24px;
+        border-top: 1px solid $color-border;
+        text-align: center;
+        font-size: 14px;
+        color: $color-muted;
+
+    &__title{
+        font-size: 20px;
+    }
+
+    &__link{
+        transition: 0.3s;
+        &:hover {color: $color-accent;}
+    }
+
+}}

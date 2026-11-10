@@ -1,0 +1,31 @@
+.features {
+  &__list {
+    display: flex;
+    gap: 24px;
+  }
+}
+.feature-card {
+  flex: 1;
+  padding: 24px;
+  background: $color-surface;
+  border: 1px solid $color-border;
+  border-radius: 16px;
+  transition: 0.3s;
+  &:hover {
+    transform: translateY(-6px);
+    border-color: $color-accent;
+    box-shadow: 0 0 24px rgba(198, 255, 61, 0.15);
+  }
+  &__icon {
+    @include flex-center;
+    width: 56px;
+    height: 56px;
+    margin-bottom: 16px;
+    border-radius: 50%;
+    font-size: 28px;
+  }
+
+&__text{
+    margin: 0;;
+    color: $color-muted;
+}}

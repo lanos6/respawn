@@ -1,0 +1,51 @@
+.pricing {
+&__list {
+display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+  }
+}
+.price-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  padding: 24px;
+  background: $color-surface;
+  border: 1px solid $color-border;
+  border-radius: 16px;
+  &__badge {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    padding: 4px 12px;
+    border-radius: 20px;
+    background: $color-accent;
+    color: $color-bg;
+    font-size: 14px;
+    font-weight: 600;
+    &--new {
+      background: $color-new;
+    }
+  }
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+  }
+
+  &__price {
+    font-size: 22px;
+    font-weight: 600;
+    color: $color-accent;
+  }
+
+  pricing {
+  &__subtitle {
+    margin: 0 0 48px;
+    text-align: center;
+    color: $color-muted;
+  }}}
+  

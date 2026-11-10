@@ -1,0 +1,36 @@
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background:#0d0e14;
+  border-bottom: 1px solid #262a38;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+  }
+
+  &__logo {
+    font-family: 'Unbounded', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: $color-accent;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 32px;
+  }
+
+  &__link {
+    transition: 0.3s;
+
+    &:hover {
+      color: $color-accent;
+    }
+  }
+}

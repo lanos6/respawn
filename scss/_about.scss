@@ -1,0 +1,45 @@
+.about{
+    padding: 80px 0;
+    &__inner {
+        display: flex;
+        align-items: center;
+        gap: 48px;
+    }
+
+    &__image,
+    &__content{
+        width: 50%;
+    }
+
+    &__image img{
+        border-radius: 24px;
+    }
+
+    &__text{
+        color: #9097ab;
+    }
+
+    &__facts{
+        list-style: none;
+        padding: 0;
+        margin-top: 32px;
+        display: flex;
+        gap: 40px;
+    }
+
+    &__fact{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__fact-number{
+        font-size: 32px;
+        font-family: 'Unbounded', sans-serif;
+        color: #c6ff3d;
+    }
+
+    &__fact-label{
+        font-size: 16px;
+        color: #9097ab;
+    }
+}
